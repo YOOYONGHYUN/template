@@ -2,7 +2,7 @@
 if (localStorage.getItem("active") === "true") {
   document.querySelector("nav").classList.add("active");
   document.body.style.visibility = "visible";
-} else (localStorage.getItem("active") === "false") {
+} else {
   document.body.style.visibility = "visible";
 }
 
